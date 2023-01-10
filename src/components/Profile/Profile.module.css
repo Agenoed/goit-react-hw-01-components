@@ -39,7 +39,7 @@
 
   background-color: rgb(233, 236, 242);
 }
-li {
+.stats li {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +47,7 @@ li {
   padding: 20px;
   width: 100px;
 }
-li:nth-child(2n) {
+.stats li:nth-child(2n) {
   border-right: 1px solid rgb(221, 227, 237);
   border-left: 1px solid rgb(221, 227, 237);
 }
