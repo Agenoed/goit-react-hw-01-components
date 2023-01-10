@@ -1,0 +1,34 @@
+.transactionHistory {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.headLine {
+  background-color: rgb(18, 205, 222);
+}
+
+.headName {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 70px 15px 70px;
+  border: 1px solid white;
+}
+
+.tableCell {
+  font-size: 20px;
+  font-weight: 400;
+  color: grey;
+  text-transform: capitalize;
+  padding: 15px 70px 15px 70px;
+  border: 1px solid rgb(220, 224, 224);
+  text-align: center;
+}
+
+.line:nth-child(n) {
+  background-color: white;
+}
+.line:nth-child(2n) {
+  background-color: rgb(218, 237, 237);
+}
